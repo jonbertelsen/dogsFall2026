@@ -1,4 +1,6 @@
-package app;
+package app.dtos;
+
+import app.enums.Breed;
 
 public record DogDTO(
         int id,

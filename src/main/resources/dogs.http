@@ -13,7 +13,7 @@ POST http://localhost:7070/dogs
 
 ###
 
-DELETE http://localhost:7070/dogs/1
+DELETE http://localhost:7070/dogs/4
 
 ###
 
