@@ -1,0 +1,26 @@
+### GET request to example server
+GET http://localhost:7070/dogs
+
+###
+
+POST http://localhost:7070/dogs
+
+{
+    "id": 3,
+    "name": "Bulder",
+    "breed": "BULLDOG"
+}
+
+###
+
+DELETE http://localhost:7070/dogs/1
+
+###
+
+POST http://localhost:7070/dogs
+
+{
+    "id": 4,
+    "name": "Bingo",
+    "breed": "FRENCHIE"
+}

@@ -1,0 +1,5 @@
+package app;
+
+public enum Breed {
+    BULLDOG, FRENCHIE, LABRADOR, POODLE, BRETON, DACHSHUND, BEAGLE, COCKER_SPANIEL
+}
