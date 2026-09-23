@@ -8,7 +8,11 @@ import java.util.List;
 
 public class DogController {
 
-    private final DogDAO dogDAO = new DogDAO();
+    private final DogDAO dogDAO;
+
+    public DogController(DogDAO dogDAO) {
+        this.dogDAO = dogDAO;
+    }
 
     public void getAll(Context ctx){
         List<DogDTO> dogDTOList = dogDAO.getAll();

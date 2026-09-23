@@ -6,7 +6,11 @@ import io.javalin.apibuilder.EndpointGroup;
 import static io.javalin.apibuilder.ApiBuilder.*;
 
 public class Routes {
-    private final DogController dogController = new DogController();
+    private final DogController dogController;
+
+    public Routes(DogController dogController) {
+        this.dogController = dogController;
+    }
 
     public EndpointGroup getRoutes() {
         return () -> {
