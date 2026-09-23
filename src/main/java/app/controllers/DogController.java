@@ -2,8 +2,10 @@ package app.controllers;
 
 import app.dtos.DogDTO;
 import app.daos.DogDAO;
+import app.exceptions.ApiException;
 import io.javalin.http.Context;
 import io.javalin.http.HttpStatus;
+import io.javalin.http.NotFoundResponse;
 
 import java.util.List;
 
@@ -21,19 +23,10 @@ public class DogController {
     }
 
     public void getById(Context ctx){
-
-        DogDTO dogDTO = null;
-        try {
-            int id = Integer.parseInt(ctx.pathParam("id"));
-            dogDTO = dogDAO.getById(id);
-            ctx.status(200).json(dogDTO);
-        }
-        catch (NumberFormatException e){
-            ctx.status(400).json(e.getMessage());
-        }
-        catch (Exception e) {
-            ctx.status(404).json(e.getMessage());
-        }
+            int id = ctx.pathParamAsClass("id", Integer.class).get();
+        DogDTO dogDTO = dogDAO.getById(id)
+                .orElseThrow(() -> new ApiException(404, "Hund med id = " + id + " findes ikke"));
+        ctx.status(200).json(dogDTO);
     }
 
     public void create(Context ctx){

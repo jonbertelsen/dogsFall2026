@@ -2,10 +2,12 @@ package app.daos;
 
 import app.enums.Breed;
 import app.dtos.DogDTO;
+import app.exceptions.ApiException;
 
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.Optional;
 
 public class DogDAO {
 
@@ -27,13 +29,8 @@ public class DogDAO {
         return dogDTO;
     }
 
-    public DogDTO getById(int id) throws Exception {
-        if (dogMap.containsKey(id))
-            return dogMap.get(id);
-        else {
-            String error = "{\"error\": \"Hund med id = " + id + " findes ikke\"}";
-            throw new Exception(error);
-        }
+    public Optional<DogDTO> getById(int id) {
+        return Optional.ofNullable(dogMap.get(id));
     }
 
     public void delete(int id){
