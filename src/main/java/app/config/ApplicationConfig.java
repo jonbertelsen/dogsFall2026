@@ -1,7 +1,5 @@
 package app.config;
 
-import app.controllers.DogController;
-import app.daos.DogDAO;
 import app.exceptions.ApiException;
 import app.routes.Routes;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -15,15 +13,11 @@ import java.util.Map;
 
 public class ApplicationConfig {
 
-    private Routes routes;
-    private DogController dogController;
-    private DogDAO dogDAO;
+    private final Routes routes;
     private static final Logger logger = LoggerFactory.getLogger(ApplicationConfig.class);
 
-    public ApplicationConfig(Routes routes, DogController dogController, DogDAO dogDAO) {
+    public ApplicationConfig(Routes routes) {
         this.routes = routes;
-        this.dogController = dogController;
-        this.dogDAO = dogDAO;
     }
 
     public void startServer(int port){

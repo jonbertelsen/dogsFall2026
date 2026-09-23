@@ -4,8 +4,6 @@ import app.dtos.DogDTO;
 import app.daos.DogDAO;
 import app.exceptions.ApiException;
 import io.javalin.http.Context;
-import io.javalin.http.HttpStatus;
-import io.javalin.http.NotFoundResponse;
 
 import java.util.List;
 

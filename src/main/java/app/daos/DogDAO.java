@@ -2,7 +2,6 @@ package app.daos;
 
 import app.enums.Breed;
 import app.dtos.DogDTO;
-import app.exceptions.ApiException;
 
 import java.util.HashMap;
 import java.util.List;
@@ -11,7 +10,7 @@ import java.util.Optional;
 
 public class DogDAO {
 
-    private Map<Integer, DogDTO> dogMap = new HashMap<>();
+    private final Map<Integer, DogDTO> dogMap = new HashMap<>();
 
     public DogDAO() {
         DogDTO ozzy = new DogDTO(1, "Ozzy", Breed.BRETON);
