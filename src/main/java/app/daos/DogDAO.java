@@ -27,8 +27,13 @@ public class DogDAO {
         return dogDTO;
     }
 
-    public DogDTO getById(int id){
-        return dogMap.get(id);
+    public DogDTO getById(int id) throws Exception {
+        if (dogMap.containsKey(id))
+            return dogMap.get(id);
+        else {
+            String error = "{\"error\": \"Hund med id = " + id + " findes ikke\"}";
+            throw new Exception(error);
+        }
     }
 
     public void delete(int id){

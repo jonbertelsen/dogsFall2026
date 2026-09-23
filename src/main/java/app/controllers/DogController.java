@@ -21,9 +21,19 @@ public class DogController {
     }
 
     public void getById(Context ctx){
-        int id = Integer.parseInt(ctx.pathParam("id"));
-        DogDTO dogDTO = dogDAO.getById(id);
-        ctx.status(200).json(dogDTO);
+
+        DogDTO dogDTO = null;
+        try {
+            int id = Integer.parseInt(ctx.pathParam("id"));
+            dogDTO = dogDAO.getById(id);
+            ctx.status(200).json(dogDTO);
+        }
+        catch (NumberFormatException e){
+            ctx.status(400).json(e.getMessage());
+        }
+        catch (Exception e) {
+            ctx.status(404).json(e.getMessage());
+        }
     }
 
     public void create(Context ctx){

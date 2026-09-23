@@ -3,11 +3,15 @@ GET http://localhost:7070/dogs
 
 ###
 
+GET http://localhost:7070/dogs/a
+
+###
+
 POST http://localhost:7070/dogs
 
 {
     "id": 3,
-    "name": "Bulder",
+
     "breed": "BULLDOG"
 }
 
