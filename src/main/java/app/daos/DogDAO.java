@@ -33,8 +33,8 @@ public class DogDAO {
         return Optional.ofNullable(dogMap.get(id));
     }
 
-    public void delete(int id){
-        dogMap.remove(id);
+    public boolean delete(int id){
+        return dogMap.remove(id) != null;
     }
 
 }
