@@ -1,0 +1,275 @@
+2026-09-24 10:00:17 [main] ERROR app.Main - *** dogs api *****
+2026-09-24 10:00:17 [main] DEBUG app - debug besked
+2026-09-24 10:00:18 [main] INFO  io.javalin.Javalin - Starting Javalin ...
+2026-09-24 10:00:18 [main] INFO  org.eclipse.jetty.server.Server - jetty-12.1.12; built: 2026-08-03T22:37:55.389Z; git: 10dd3948f37767b84cc2c62358364f042e51dbbe; jvm 25.0.2+10-69
+2026-09-24 10:00:18 [main] INFO  o.e.j.s.DefaultSessionIdManager - Session workerName=node0
+2026-09-24 10:00:18 [main] INFO  o.e.j.server.handler.ContextHandler - Started oeje10s.ServletContextHandler@5d43661b{ROOT,/,b=null,a=AVAILABLE,h=oeje10s.SessionHandler@12299890{STARTED}}
+2026-09-24 10:00:18 [main] INFO  o.e.j.e.s.ServletContextHandler - Started oeje10s.ServletContextHandler@5d43661b{ROOT,/,b=null,a=AVAILABLE,h=oeje10s.SessionHandler@12299890{STARTED}}
+2026-09-24 10:00:18 [main] INFO  o.e.jetty.server.AbstractConnector - Started oejs.ServerConnector@4bb3f951{HTTP/1.1, (http/1.1)}{0.0.0.0:7070}
+2026-09-24 10:00:18 [main] INFO  org.eclipse.jetty.server.Server - Started oejs.Server@31920ade{STARTING}[12.1.12,sto=0] @39ms
+2026-09-24 10:00:18 [main] INFO  io.javalin.Javalin - 
+       __                  ___          _____
+      / /___ __   ______ _/ (_)___     /__  /
+ __  / / __ `/ | / / __ `/ / / __ \      / /
+/ /_/ / /_/ /| |/ / /_/ / / / / / /     / /
+\____/\__,_/ |___/\__,_/_/_/_/ /_/     /_/
+
+       https://javalin.io/documentation
+
+2026-09-24 10:00:18 [main] INFO  io.javalin.Javalin - Javalin started in 135ms \o/
+2026-09-24 10:00:18 [main] INFO  io.javalin.Javalin - Listening on http://localhost:7070/
+2026-09-24 10:00:18 [main] INFO  io.javalin.Javalin - You are running Javalin 7.2.3 (released August 11, 2026).
+2026-09-24 11:07:36 [main] ERROR app.Main - *** dogs api *****
+2026-09-24 11:07:36 [main] DEBUG app - debug besked
+2026-09-24 11:07:36 [main] INFO  io.javalin.Javalin - Starting Javalin ...
+2026-09-24 11:07:36 [main] INFO  org.eclipse.jetty.server.Server - jetty-12.1.12; built: 2026-08-03T22:37:55.389Z; git: 10dd3948f37767b84cc2c62358364f042e51dbbe; jvm 25.0.2+10-69
+2026-09-24 11:07:36 [main] INFO  o.e.j.s.DefaultSessionIdManager - Session workerName=node0
+2026-09-24 11:07:36 [main] INFO  o.e.j.server.handler.ContextHandler - Started oeje10s.ServletContextHandler@6736fa8d{ROOT,/,b=null,a=AVAILABLE,h=oeje10s.SessionHandler@52815fa3{STARTED}}
+2026-09-24 11:07:36 [main] INFO  o.e.j.e.s.ServletContextHandler - Started oeje10s.ServletContextHandler@6736fa8d{ROOT,/,b=null,a=AVAILABLE,h=oeje10s.SessionHandler@52815fa3{STARTED}}
+2026-09-24 11:07:36 [main] INFO  o.e.jetty.server.AbstractConnector - Started oejs.ServerConnector@5b3f61ff{HTTP/1.1, (http/1.1)}{0.0.0.0:7070}
+2026-09-24 11:07:36 [main] INFO  org.eclipse.jetty.server.Server - Started oejs.Server@46271dd6{STARTING}[12.1.12,sto=0] @42ms
+2026-09-24 11:07:36 [main] INFO  io.javalin.Javalin - 
+       __                  ___          _____
+      / /___ __   ______ _/ (_)___     /__  /
+ __  / / __ `/ | / / __ `/ / / __ \      / /
+/ /_/ / /_/ /| |/ / /_/ / / / / / /     / /
+\____/\__,_/ |___/\__,_/_/_/_/ /_/     /_/
+
+       https://javalin.io/documentation
+
+2026-09-24 11:07:36 [main] INFO  io.javalin.Javalin - Javalin started in 162ms \o/
+2026-09-24 11:07:36 [main] INFO  io.javalin.Javalin - Listening on http://localhost:7070/
+2026-09-24 11:07:36 [main] INFO  io.javalin.Javalin - You are running Javalin 7.2.3 (released August 11, 2026).
+2026-09-24 11:07:48 [JettyServerThreadPool-43] INFO  app.controllers.DogController - getById: id=2
+2026-09-24 11:58:50 [main] ERROR app.Main - *** dogs api *****
+2026-09-24 11:58:50 [main] DEBUG app - debug besked
+2026-09-24 11:58:50 [main] INFO  io.javalin.Javalin - Starting Javalin ...
+2026-09-24 11:58:50 [main] INFO  org.eclipse.jetty.server.Server - jetty-12.1.12; built: 2026-08-03T22:37:55.389Z; git: 10dd3948f37767b84cc2c62358364f042e51dbbe; jvm 25.0.2+10-69
+2026-09-24 11:58:50 [main] INFO  o.e.j.s.DefaultSessionIdManager - Session workerName=node0
+2026-09-24 11:58:50 [main] INFO  o.e.j.server.handler.ContextHandler - Started oeje10s.ServletContextHandler@5d43661b{/api,/api,b=null,a=AVAILABLE,h=oeje10s.SessionHandler@12299890{STARTED}}
+2026-09-24 11:58:50 [main] INFO  o.e.j.e.s.ServletContextHandler - Started oeje10s.ServletContextHandler@5d43661b{/api,/api,b=null,a=AVAILABLE,h=oeje10s.SessionHandler@12299890{STARTED}}
+2026-09-24 11:58:50 [main] INFO  o.e.jetty.server.AbstractConnector - Started oejs.ServerConnector@6fa34d52{HTTP/1.1, (http/1.1)}{0.0.0.0:7070}
+2026-09-24 11:58:50 [main] INFO  org.eclipse.jetty.server.Server - Started oejs.Server@31920ade{STARTING}[12.1.12,sto=0] @41ms
+2026-09-24 11:58:50 [main] INFO  io.javalin.Javalin - 
+       __                  ___          _____
+      / /___ __   ______ _/ (_)___     /__  /
+ __  / / __ `/ | / / __ `/ / / __ \      / /
+/ /_/ / /_/ /| |/ / /_/ / / / / / /     / /
+\____/\__,_/ |___/\__,_/_/_/_/ /_/     /_/
+
+       https://javalin.io/documentation
+
+2026-09-24 11:58:50 [main] INFO  io.javalin.Javalin - Javalin started in 152ms \o/
+2026-09-24 11:58:50 [main] INFO  io.javalin.Javalin - Listening on http://localhost:7070/api
+2026-09-24 11:58:50 [main] INFO  io.javalin.Javalin - You are running Javalin 7.2.3 (released August 11, 2026).
+2026-09-24 12:14:41 [main] ERROR app.Main - *** dogs api *****
+2026-09-24 12:14:41 [main] DEBUG app - debug besked
+2026-09-24 12:14:41 [main] INFO  io.javalin.Javalin - Starting Javalin ...
+2026-09-24 12:14:41 [main] INFO  org.eclipse.jetty.server.Server - jetty-12.1.12; built: 2026-08-03T22:37:55.389Z; git: 10dd3948f37767b84cc2c62358364f042e51dbbe; jvm 25.0.2+10-69
+2026-09-24 12:14:41 [main] INFO  o.e.j.s.DefaultSessionIdManager - Session workerName=node0
+2026-09-24 12:14:41 [main] INFO  o.e.j.server.handler.ContextHandler - Started oeje10s.ServletContextHandler@13b3d178{/api,/api,b=null,a=AVAILABLE,h=oeje10s.SessionHandler@24c4ddae{STARTED}}
+2026-09-24 12:14:41 [main] INFO  o.e.j.e.s.ServletContextHandler - Started oeje10s.ServletContextHandler@13b3d178{/api,/api,b=null,a=AVAILABLE,h=oeje10s.SessionHandler@24c4ddae{STARTED}}
+2026-09-24 12:14:41 [main] INFO  o.e.jetty.server.AbstractConnector - Started oejs.ServerConnector@6ab7eca6{HTTP/1.1, (http/1.1)}{0.0.0.0:7070}
+2026-09-24 12:14:41 [main] INFO  org.eclipse.jetty.server.Server - Started oejs.Server@1fd14d74{STARTING}[12.1.12,sto=0] @38ms
+2026-09-24 12:14:41 [main] INFO  io.javalin.Javalin - 
+       __                  ___          _____
+      / /___ __   ______ _/ (_)___     /__  /
+ __  / / __ `/ | / / __ `/ / / __ \      / /
+/ /_/ / /_/ /| |/ / /_/ / / / / / /     / /
+\____/\__,_/ |___/\__,_/_/_/_/ /_/     /_/
+
+       https://javalin.io/documentation
+
+2026-09-24 12:14:41 [main] INFO  io.javalin.Javalin - Javalin started in 143ms \o/
+2026-09-24 12:14:41 [main] INFO  io.javalin.Javalin - Listening on http://localhost:7070/api
+2026-09-24 12:14:41 [main] INFO  io.javalin.Javalin - You are running Javalin 7.2.3 (released August 11, 2026).
+2026-09-24 12:15:12 [JettyServerThreadPool-47] INFO  app.controllers.DogController - getById: id=2
+2026-09-24 12:15:50 [JettyServerThreadPool-42] INFO  app.controllers.DogController - getById: id=1
+2026-09-24 12:32:28 [main] ERROR app.Main - *** dogs api *****
+2026-09-24 12:32:28 [main] DEBUG app - debug besked
+2026-09-24 12:32:28 [main] INFO  io.javalin.Javalin - Starting Javalin ...
+2026-09-24 12:32:28 [main] INFO  org.eclipse.jetty.server.Server - jetty-12.1.12; built: 2026-08-03T22:37:55.389Z; git: 10dd3948f37767b84cc2c62358364f042e51dbbe; jvm 25.0.2+10-69
+2026-09-24 12:32:28 [main] INFO  o.e.j.s.DefaultSessionIdManager - Session workerName=node0
+2026-09-24 12:32:28 [main] INFO  o.e.j.server.handler.ContextHandler - Started oeje10s.ServletContextHandler@5d43661b{/api,/api,b=null,a=AVAILABLE,h=oeje10s.SessionHandler@12299890{STARTED}}
+2026-09-24 12:32:28 [main] INFO  o.e.j.e.s.ServletContextHandler - Started oeje10s.ServletContextHandler@5d43661b{/api,/api,b=null,a=AVAILABLE,h=oeje10s.SessionHandler@12299890{STARTED}}
+2026-09-24 12:32:28 [main] INFO  o.e.jetty.server.AbstractConnector - Started oejs.ServerConnector@6fa34d52{HTTP/1.1, (http/1.1)}{0.0.0.0:7070}
+2026-09-24 12:32:28 [main] INFO  org.eclipse.jetty.server.Server - Started oejs.Server@5c669da8{STARTING}[12.1.12,sto=0] @38ms
+2026-09-24 12:32:28 [main] INFO  io.javalin.Javalin - 
+       __                  ___          _____
+      / /___ __   ______ _/ (_)___     /__  /
+ __  / / __ `/ | / / __ `/ / / __ \      / /
+/ /_/ / /_/ /| |/ / /_/ / / / / / /     / /
+\____/\__,_/ |___/\__,_/_/_/_/ /_/     /_/
+
+       https://javalin.io/documentation
+
+2026-09-24 12:32:28 [main] INFO  io.javalin.Javalin - Javalin started in 146ms \o/
+2026-09-24 12:32:28 [main] INFO  io.javalin.Javalin - Listening on http://localhost:7070/api
+2026-09-24 12:32:28 [main] INFO  io.javalin.Javalin - You are running Javalin 7.2.3 (released August 11, 2026).
+2026-09-24 12:32:38 [JettyServerThreadPool-47] INFO  app.controllers.DogController - getById: id=1
+2026-09-24 12:32:42 [JettyServerThreadPool-43] ERROR app.exceptions.ApiException - StatusCode: 404, Message: error: Hund med id = 12 findes ikke
+2026-09-24 12:36:26 [main] ERROR app.Main - *** dogs api *****
+2026-09-24 12:36:26 [main] DEBUG app - debug besked
+2026-09-24 12:36:26 [main] INFO  io.javalin.Javalin - Starting Javalin ...
+2026-09-24 12:36:26 [main] INFO  org.eclipse.jetty.server.Server - jetty-12.1.12; built: 2026-08-03T22:37:55.389Z; git: 10dd3948f37767b84cc2c62358364f042e51dbbe; jvm 25.0.2+10-69
+2026-09-24 12:36:26 [main] INFO  o.e.j.s.DefaultSessionIdManager - Session workerName=node0
+2026-09-24 12:36:26 [main] INFO  o.e.j.server.handler.ContextHandler - Started oeje10s.ServletContextHandler@13b3d178{/api,/api,b=null,a=AVAILABLE,h=oeje10s.SessionHandler@24c4ddae{STARTED}}
+2026-09-24 12:36:26 [main] INFO  o.e.j.e.s.ServletContextHandler - Started oeje10s.ServletContextHandler@13b3d178{/api,/api,b=null,a=AVAILABLE,h=oeje10s.SessionHandler@24c4ddae{STARTED}}
+2026-09-24 12:36:26 [main] INFO  o.e.jetty.server.AbstractConnector - Started oejs.ServerConnector@a41e4ed{HTTP/1.1, (http/1.1)}{0.0.0.0:7070}
+2026-09-24 12:36:26 [main] INFO  org.eclipse.jetty.server.Server - Started oejs.Server@28d18df5{STARTING}[12.1.12,sto=0] @36ms
+2026-09-24 12:36:26 [main] INFO  io.javalin.Javalin - 
+       __                  ___          _____
+      / /___ __   ______ _/ (_)___     /__  /
+ __  / / __ `/ | / / __ `/ / / __ \      / /
+/ /_/ / /_/ /| |/ / /_/ / / / / / /     / /
+\____/\__,_/ |___/\__,_/_/_/_/ /_/     /_/
+
+       https://javalin.io/documentation
+
+2026-09-24 12:36:26 [main] INFO  io.javalin.Javalin - Javalin started in 133ms \o/
+2026-09-24 12:36:26 [main] INFO  io.javalin.Javalin - Listening on http://localhost:7070/api
+2026-09-24 12:36:26 [main] INFO  io.javalin.Javalin - You are running Javalin 7.2.3 (released August 11, 2026).
+2026-09-24 12:36:32 [JettyServerThreadPool-47] ERROR app.exceptions.ApiException - StatusCode: 404, Message: error: Hund med id = 12 findes ikke
+2026-09-24 12:36:32 [JettyServerThreadPool-47] WARN  io.javalin.Javalin - Uncaught exception
+app.exceptions.ApiException: error: Hund med id = 12 findes ikke
+	at app.daos.DogDAO.getById(DogDAO.java:36)
+	at app.controllers.DogController.getById(DogController.java:35)
+	at io.javalin.router.ParsedEndpoint.handleWithPathParams$javalin(ParsedEndpoint.kt:21)
+	at io.javalin.router.ParsedEndpoint.handle(ParsedEndpoint.kt:15)
+	at io.javalin.http.servlet.DefaultTasks.HTTP$lambda$0$1(DefaultTasks.kt:57)
+	at io.javalin.http.servlet.JavalinServlet.handleTask(JavalinServlet.kt:108)
+	at io.javalin.http.servlet.JavalinServlet.handleSync(JavalinServlet.kt:72)
+	at io.javalin.http.servlet.JavalinServlet.handle(JavalinServlet.kt:58)
+	at io.javalin.http.servlet.JavalinServlet.service(JavalinServlet.kt:38)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:614)
+	at io.javalin.jetty.JavalinJettyServlet.service(JavalinJettyServlet.kt:49)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:614)
+	at org.eclipse.jetty.ee10.servlet.ServletHolder.handle(ServletHolder.java:754)
+	at org.eclipse.jetty.ee10.servlet.ServletHandler$ChainEnd.doFilter(ServletHandler.java:1642)
+	at org.eclipse.jetty.ee10.servlet.ServletHandler$MappedServlet.handle(ServletHandler.java:1556)
+	at org.eclipse.jetty.ee10.servlet.ServletChannel.dispatch(ServletChannel.java:871)
+	at org.eclipse.jetty.ee10.servlet.ServletChannel.handle(ServletChannel.java:449)
+	at org.eclipse.jetty.ee10.servlet.ServletHandler.handle(ServletHandler.java:469)
+	at org.eclipse.jetty.ee10.servlet.SessionHandler.handle(SessionHandler.java:719)
+	at org.eclipse.jetty.server.handler.ContextHandler.handle(ContextHandler.java:1253)
+	at org.eclipse.jetty.server.Handler$Wrapper.handle(Handler.java:794)
+	at org.eclipse.jetty.server.handler.EventsHandler.handle(EventsHandler.java:81)
+	at org.eclipse.jetty.server.Server.handle(Server.java:197)
+	at org.eclipse.jetty.server.internal.HttpChannelState$HandlerInvoker.run(HttpChannelState.java:804)
+	at org.eclipse.jetty.server.internal.HttpConnection.onFillable(HttpConnection.java:420)
+	at org.eclipse.jetty.server.internal.HttpConnection$FillableCallback.succeeded(HttpConnection.java:1790)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:105)
+	at org.eclipse.jetty.io.SelectableChannelEndPoint$1.run(SelectableChannelEndPoint.java:54)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:1009)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob(QueuedThreadPool.java:1240)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1194)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+2026-09-24 12:42:54 [main] ERROR app.Main - *** dogs api *****
+2026-09-24 12:42:54 [main] DEBUG app - debug besked
+2026-09-24 12:42:54 [main] INFO  io.javalin.Javalin - Starting Javalin ...
+2026-09-24 12:42:54 [main] INFO  org.eclipse.jetty.server.Server - jetty-12.1.12; built: 2026-08-03T22:37:55.389Z; git: 10dd3948f37767b84cc2c62358364f042e51dbbe; jvm 25.0.2+10-69
+2026-09-24 12:42:54 [main] INFO  o.e.j.s.DefaultSessionIdManager - Session workerName=node0
+2026-09-24 12:42:54 [main] INFO  o.e.j.server.handler.ContextHandler - Started oeje10s.ServletContextHandler@1c39680d{/api,/api,b=null,a=AVAILABLE,h=oeje10s.SessionHandler@62833051{STARTED}}
+2026-09-24 12:42:54 [main] INFO  o.e.j.e.s.ServletContextHandler - Started oeje10s.ServletContextHandler@1c39680d{/api,/api,b=null,a=AVAILABLE,h=oeje10s.SessionHandler@62833051{STARTED}}
+2026-09-24 12:42:54 [main] INFO  o.e.jetty.server.AbstractConnector - Started oejs.ServerConnector@6bcf54bf{HTTP/1.1, (http/1.1)}{0.0.0.0:7070}
+2026-09-24 12:42:54 [main] INFO  org.eclipse.jetty.server.Server - Started oejs.Server@3b74ac8{STARTING}[12.1.12,sto=0] @36ms
+2026-09-24 12:42:54 [main] INFO  io.javalin.Javalin - 
+       __                  ___          _____
+      / /___ __   ______ _/ (_)___     /__  /
+ __  / / __ `/ | / / __ `/ / / __ \      / /
+/ /_/ / /_/ /| |/ / /_/ / / / / / /     / /
+\____/\__,_/ |___/\__,_/_/_/_/ /_/     /_/
+
+       https://javalin.io/documentation
+
+2026-09-24 12:42:54 [main] INFO  io.javalin.Javalin - Javalin started in 134ms \o/
+2026-09-24 12:42:54 [main] INFO  io.javalin.Javalin - Listening on http://localhost:7070/api
+2026-09-24 12:42:54 [main] INFO  io.javalin.Javalin - You are running Javalin 7.2.3 (released August 11, 2026).
+2026-09-24 12:43:04 [JettyServerThreadPool-47] ERROR app.exceptions.ApiException - StatusCode: 404, Message: error: Hund med id = 12 findes ikke
+2026-09-24 12:43:04 [JettyServerThreadPool-47] ERROR app.config.ApplicationConfig - error: Hund med id = 12 findes ikke
+2026-09-24 12:47:18 [main] ERROR app.Main - *** dogs api *****
+2026-09-24 12:47:18 [main] DEBUG app - debug besked
+2026-09-24 12:47:18 [main] INFO  io.javalin.Javalin - Starting Javalin ...
+2026-09-24 12:47:18 [main] INFO  org.eclipse.jetty.server.Server - jetty-12.1.12; built: 2026-08-03T22:37:55.389Z; git: 10dd3948f37767b84cc2c62358364f042e51dbbe; jvm 25.0.2+10-69
+2026-09-24 12:47:18 [main] INFO  o.e.j.s.DefaultSessionIdManager - Session workerName=node0
+2026-09-24 12:47:18 [main] INFO  o.e.j.server.handler.ContextHandler - Started oeje10s.ServletContextHandler@62833051{/api,/api,b=null,a=AVAILABLE,h=oeje10s.SessionHandler@1c852c0f{STARTED}}
+2026-09-24 12:47:18 [main] INFO  o.e.j.e.s.ServletContextHandler - Started oeje10s.ServletContextHandler@62833051{/api,/api,b=null,a=AVAILABLE,h=oeje10s.SessionHandler@1c852c0f{STARTED}}
+2026-09-24 12:47:18 [main] INFO  o.e.jetty.server.AbstractConnector - Started oejs.ServerConnector@47ef4548{HTTP/1.1, (http/1.1)}{0.0.0.0:7070}
+2026-09-24 12:47:18 [main] INFO  org.eclipse.jetty.server.Server - Started oejs.Server@28d18df5{STARTING}[12.1.12,sto=0] @37ms
+2026-09-24 12:47:18 [main] INFO  io.javalin.Javalin - 
+       __                  ___          _____
+      / /___ __   ______ _/ (_)___     /__  /
+ __  / / __ `/ | / / __ `/ / / __ \      / /
+/ /_/ / /_/ /| |/ / /_/ / / / / / /     / /
+\____/\__,_/ |___/\__,_/_/_/_/ /_/     /_/
+
+       https://javalin.io/documentation
+
+2026-09-24 12:47:18 [main] INFO  io.javalin.Javalin - Javalin started in 135ms \o/
+2026-09-24 12:47:18 [main] INFO  io.javalin.Javalin - Listening on http://localhost:7070/api
+2026-09-24 12:47:18 [main] INFO  io.javalin.Javalin - You are running Javalin 7.2.3 (released August 11, 2026).
+2026-09-24 12:53:46 [main] ERROR app.Main - *** dogs api *****
+2026-09-24 12:53:46 [main] DEBUG app - debug besked
+2026-09-24 12:53:46 [main] INFO  io.javalin.Javalin - Starting Javalin ...
+2026-09-24 12:53:46 [main] INFO  org.eclipse.jetty.server.Server - jetty-12.1.12; built: 2026-08-03T22:37:55.389Z; git: 10dd3948f37767b84cc2c62358364f042e51dbbe; jvm 25.0.2+10-69
+2026-09-24 12:53:46 [main] INFO  o.e.j.s.DefaultSessionIdManager - Session workerName=node0
+2026-09-24 12:53:46 [main] INFO  o.e.j.server.handler.ContextHandler - Started oeje10s.ServletContextHandler@4bf48f6{/api,/api,b=null,a=AVAILABLE,h=oeje10s.SessionHandler@420a85c4{STARTED}}
+2026-09-24 12:53:46 [main] INFO  o.e.j.e.s.ServletContextHandler - Started oeje10s.ServletContextHandler@4bf48f6{/api,/api,b=null,a=AVAILABLE,h=oeje10s.SessionHandler@420a85c4{STARTED}}
+2026-09-24 12:53:46 [main] INFO  o.e.jetty.server.AbstractConnector - Started oejs.ServerConnector@5a3a3cb4{HTTP/1.1, (http/1.1)}{0.0.0.0:7070}
+2026-09-24 12:53:46 [main] INFO  org.eclipse.jetty.server.Server - Started oejs.Server@6337c201{STARTING}[12.1.12,sto=0] @40ms
+2026-09-24 12:53:46 [main] INFO  io.javalin.Javalin - 
+       __                  ___          _____
+      / /___ __   ______ _/ (_)___     /__  /
+ __  / / __ `/ | / / __ `/ / / __ \      / /
+/ /_/ / /_/ /| |/ / /_/ / / / / / /     / /
+\____/\__,_/ |___/\__,_/_/_/_/ /_/     /_/
+
+       https://javalin.io/documentation
+
+2026-09-24 12:53:46 [main] INFO  io.javalin.Javalin - Javalin started in 147ms \o/
+2026-09-24 12:53:46 [main] INFO  io.javalin.Javalin - Listening on http://localhost:7070/api
+2026-09-24 12:53:46 [main] INFO  io.javalin.Javalin - You are running Javalin 7.2.3 (released August 11, 2026).
+2026-09-24 12:58:24 [main] ERROR app.Main - *** dogs api *****
+2026-09-24 12:58:24 [main] DEBUG app - debug besked
+2026-09-24 12:58:24 [main] INFO  io.javalin.Javalin - Starting Javalin ...
+2026-09-24 12:58:24 [main] INFO  org.eclipse.jetty.server.Server - jetty-12.1.12; built: 2026-08-03T22:37:55.389Z; git: 10dd3948f37767b84cc2c62358364f042e51dbbe; jvm 25.0.2+10-69
+2026-09-24 12:58:24 [main] INFO  o.e.j.s.DefaultSessionIdManager - Session workerName=node0
+2026-09-24 12:58:24 [main] INFO  o.e.j.server.handler.ContextHandler - Started oeje10s.ServletContextHandler@62833051{/api,/api,b=null,a=AVAILABLE,h=oeje10s.SessionHandler@1c852c0f{STARTED}}
+2026-09-24 12:58:24 [main] INFO  o.e.j.e.s.ServletContextHandler - Started oeje10s.ServletContextHandler@62833051{/api,/api,b=null,a=AVAILABLE,h=oeje10s.SessionHandler@1c852c0f{STARTED}}
+2026-09-24 12:58:24 [main] INFO  o.e.jetty.server.AbstractConnector - Started oejs.ServerConnector@490caf5f{HTTP/1.1, (http/1.1)}{0.0.0.0:7070}
+2026-09-24 12:58:24 [main] INFO  org.eclipse.jetty.server.Server - Started oejs.Server@1d483de4{STARTING}[12.1.12,sto=0] @35ms
+2026-09-24 12:58:24 [main] INFO  io.javalin.Javalin - 
+       __                  ___          _____
+      / /___ __   ______ _/ (_)___     /__  /
+ __  / / __ `/ | / / __ `/ / / __ \      / /
+/ /_/ / /_/ /| |/ / /_/ / / / / / /     / /
+\____/\__,_/ |___/\__,_/_/_/_/ /_/     /_/
+
+       https://javalin.io/documentation
+
+2026-09-24 12:58:24 [main] INFO  io.javalin.Javalin - Javalin started in 133ms \o/
+2026-09-24 12:58:24 [main] INFO  io.javalin.Javalin - Listening on http://localhost:7070/api
+2026-09-24 12:58:24 [main] INFO  io.javalin.Javalin - You are running Javalin 7.2.3 (released August 11, 2026).
+2026-09-24 12:58:54 [JettyServerThreadPool-47] ERROR app.config.ApplicationConfig - Validation failed
+2026-09-24 13:00:12 [main] ERROR app.Main - *** dogs api *****
+2026-09-24 13:00:12 [main] DEBUG app - debug besked
+2026-09-24 13:00:12 [main] INFO  io.javalin.Javalin - Starting Javalin ...
+2026-09-24 13:00:12 [main] INFO  org.eclipse.jetty.server.Server - jetty-12.1.12; built: 2026-08-03T22:37:55.389Z; git: 10dd3948f37767b84cc2c62358364f042e51dbbe; jvm 25.0.2+10-69
+2026-09-24 13:00:12 [main] INFO  o.e.j.s.DefaultSessionIdManager - Session workerName=node0
+2026-09-24 13:00:12 [main] INFO  o.e.j.server.handler.ContextHandler - Started oeje10s.ServletContextHandler@ea9b7c6{/api,/api,b=null,a=AVAILABLE,h=oeje10s.SessionHandler@e077866{STARTED}}
+2026-09-24 13:00:12 [main] INFO  o.e.j.e.s.ServletContextHandler - Started oeje10s.ServletContextHandler@ea9b7c6{/api,/api,b=null,a=AVAILABLE,h=oeje10s.SessionHandler@e077866{STARTED}}
+2026-09-24 13:00:12 [main] INFO  o.e.jetty.server.AbstractConnector - Started oejs.ServerConnector@1b065145{HTTP/1.1, (http/1.1)}{0.0.0.0:7070}
+2026-09-24 13:00:12 [main] INFO  org.eclipse.jetty.server.Server - Started oejs.Server@239b0f9d{STARTING}[12.1.12,sto=0] @68ms
+2026-09-24 13:00:12 [main] INFO  io.javalin.Javalin - 
+       __                  ___          _____
+      / /___ __   ______ _/ (_)___     /__  /
+ __  / / __ `/ | / / __ `/ / / __ \      / /
+/ /_/ / /_/ /| |/ / /_/ / / / / / /     / /
+\____/\__,_/ |___/\__,_/_/_/_/ /_/     /_/
+
+       https://javalin.io/documentation
+
+2026-09-24 13:00:12 [main] INFO  io.javalin.Javalin - Javalin started in 267ms \o/
+2026-09-24 13:00:12 [main] INFO  io.javalin.Javalin - Listening on http://localhost:7070/api
+2026-09-24 13:00:12 [main] INFO  io.javalin.Javalin - You are running Javalin 7.2.3 (released August 11, 2026).
+2026-09-24 13:01:19 [JettyServerThreadPool-47] ERROR app.config.ApplicationConfig - Validation failed
