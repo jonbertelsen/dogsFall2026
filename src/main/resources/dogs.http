@@ -1,17 +1,16 @@
 ### GET request to example server
-GET http://localhost:7070/dogs
+GET http://localhost:7070/api/dogs
 
 ###
 
-GET http://localhost:7070/dogs/a
+GET http://localhost:7070/api/dogs/x
 
 ###
 
-POST http://localhost:7070/dogs
+POST http://localhost:7070/api/dogs
 
 {
     "id": 3,
-
     "breed": "BULLDOG"
 }
 
@@ -21,10 +20,10 @@ DELETE http://localhost:7070/dogs/1
 
 ###
 
-POST http://localhost:7070/dogs
+POST http://localhost:7070/api/dogs
 
 {
     "id": 4,
     "name": "Bingo",
-    "breed": "FRENCHIE"
+    "breed": "FRENCHIEs"
 }

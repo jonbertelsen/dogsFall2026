@@ -2,14 +2,17 @@ package app.controllers;
 
 import app.dtos.DogDTO;
 import app.daos.DogDAO;
+import app.exceptions.ApiException;
 import io.javalin.http.Context;
-import io.javalin.http.HttpStatus;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.util.List;
 
 public class DogController {
 
     private final DogDAO dogDAO;
+    private final Logger logger = LoggerFactory.getLogger(DogController.class);
 
     public DogController(DogDAO dogDAO) {
         this.dogDAO = dogDAO;
@@ -23,21 +26,25 @@ public class DogController {
     public void getById(Context ctx){
 
         DogDTO dogDTO = null;
-        try {
-            int id = Integer.parseInt(ctx.pathParam("id"));
+
+            int id = ctx.pathParamAsClass("id", Integer.class)
+                    .check(value -> value > 0, "id skal være større end 0")
+                    .check(value -> value < 100, "id skal være mindre end 100")
+                    .get();
+
             dogDTO = dogDAO.getById(id);
+            logger.info("getById: id={}", id);
             ctx.status(200).json(dogDTO);
         }
-        catch (NumberFormatException e){
-            ctx.status(400).json(e.getMessage());
-        }
-        catch (Exception e) {
-            ctx.status(404).json(e.getMessage());
-        }
-    }
 
     public void create(Context ctx){
-        DogDTO newDog = ctx.bodyAsClass(DogDTO.class);
+        DogDTO newDog = ctx.bodyValidator(DogDTO.class)
+                .required()
+                .check(dog -> dog.name() != null && !dog.name().isBlank(),
+                        "name skal udfyldes")
+                .check(dog -> dog.breed() != null,
+                        "breed skal udfyldes")
+                .get();
         DogDTO createdDog = dogDAO.create(newDog);
         ctx.status(201).json(createdDog);
     }
